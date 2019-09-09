@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 
+=======
+>>>>>>> 33570f19d4d2128f85cb2674e1f47307c762f74a
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
   <groupId>com.neethu</groupId>
   <artifactId>ram</artifactId>
   <version>1.0</version>
@@ -16,12 +20,25 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+=======
+  <groupId>com.ravi.cal</groupId>
+  <artifactId>RaviCalculator</artifactId>
+  <version>0.0.6-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>RaviCalculator</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+>>>>>>> 33570f19d4d2128f85cb2674e1f47307c762f74a
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
+<<<<<<< HEAD
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
@@ -84,4 +101,10 @@
       </plugins>
     </pluginManagement>
   </build>
+=======
+      <version>4.8.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+>>>>>>> 33570f19d4d2128f85cb2674e1f47307c762f74a
 </project>
